@@ -1,0 +1,36 @@
+*{
+    font-family: 'Lato', sans-serif;
+}
+
+.header{
+    position: absolute;
+   top:0;
+   left: 0;
+   width: 100vw;
+   padding: 3% 0;
+background-image: linear-gradient(120deg, #0085be 0%, #005c83 100%);
+display: flex;
+color: #fff;
+justify-content: center;
+font-stretch: ultra-condensed;
+font-weight: bold
+}
+
+.header h1{
+    margin-bottom: -5%; 
+}
+
+.header-img{
+    width:60%;
+}
+
+a{
+    color: #3decff;
+    text-decoration: none;
+}
+
+a:hover{
+    /*color: #b116c9;*/
+    border-bottom-width: 5px;
+    border-bottom-style: double;
+}
