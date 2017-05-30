@@ -1,1 +1,1 @@
-"# mdn-bot-landing-page" 
+# Slack and Study slash command landing page
