@@ -99,7 +99,7 @@ a:hover{
    -moz-box-shadow: 10px 10px 20px 0px rgba(158,155,158,1);
    box-shadow: 5px 5px 20px 0px rgba(158,155,158,1);
    border-radius: 10px;
-   margin: 5% 5% 5% 0;
+   margin: 25% 5% 5% 3%;
 }
 
 #use{
