@@ -61,14 +61,37 @@ a:hover{
 .content{
     display: flex;
     justify-content: center;
+    height: 90vh;
 }
 
+.content-item:first-child{
+    padding: 3% 1% 10% 10%;
+}
+
+.content-item:nth-child(2){
+    padding: 5% 10% 10% 1%;
+}
+
+.content-header{
+    color: #005c83
+}
 .demo-image{
-    width: 85%;
+   width: 120%;
+   -webkit-box-shadow: 10px 10px 20px 0px rgba(158,155,158,1);
+-moz-box-shadow: 10px 10px 20px 0px rgba(158,155,158,1);
+box-shadow: 10px 10px 20px 0px rgba(158,155,158,1);
+}
+
+.slack-link{
+    text-decoration: none;
+}
+
+.slack-link:hover{
+    text-decoration: none;
 }
 
 footer{
-    position: absolute;
+    position: relative;
     bottom:0;
     left: 0;
     width: 100vw;
