@@ -27,7 +27,7 @@ html, body{
    left: 0;
    width: 100vw;
    padding: 3% 0;
-    background-image: linear-gradient(120deg, #0085be 0%, #005c83 100%);
+    background-image: linear-gradient(120deg, #0085be 10%, #005c83 100%);
     display: flex;
     color: #fff;
     justify-content: center;
@@ -60,15 +60,11 @@ a:hover{
 
 .content{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
 
-.description{
-    flex-basis: 1;
-}
-
-.demo{
-    flex-basis: 2;
+.demo-image{
+    width: 85%;
 }
 
 footer{
