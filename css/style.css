@@ -175,6 +175,26 @@ footer a:hover{
 	padding: 1%;
 	font-family: 'Montserrat', sans-serif;
 }
+.privacy{
+		background-color: #DFF6FF;
+		padding: 5%;
+		line-height: 1.7em;
+	}
+	
+	form{
+		margin-left:auto;
+    margin-right:auto;
+	}
+	input, select, textarea {
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
 }
 
 /* mobiles   */
@@ -305,5 +325,24 @@ footer a:hover{
 		border-bottom-style: solid;
 		padding-bottom: 3px;
 	}
+	
+	.support{
+	position: fixed;
+	bottom:0;
+	right:0;
+	background-color: #005c83;
+	color: #fff;
+	fornt-size: 1.2em;
+	outline: none;
+	border: none;
+	border-radius: 5px 5px 0 0;
+	padding: 1%;
+	font-family: 'Montserrat', sans-serif;
 	}
-}
+	
+	.privacy{
+		background-color: #DFF6FF;
+		padding: 5%;
+	}
+	}
+

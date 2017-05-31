@@ -1,43 +1,48 @@
 <!DOCTYPE html>
-<html class="full-height">
-    <head>
-        <title>MDNBot Support Request</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-        <link rel="icon" href="img/favicon.ico" type="image/x-icon">
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/style.css">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
-        <script
-  src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-  integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
-  crossorigin="anonymous"></script>
-        <script src="js/form.js"></script>
-        <script src="https://use.fontawesome.com/fade99b208.js"></script>
-    </head>
+<html>
+	<head>
+		<title>SnS Feedback</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://fonts.googleapis.com/css?family=Lato|Montserrat" rel="stylesheet">
+		<link rel="stylesheet" href="css/style.css">
+		<script src="https://use.fontawesome.com/9acb8c974f.js"></script>
+	</head>
     <body>
         
 		<header class="header">
 			<div>
-			<img class= "header-img" src="img/sns.png" alt="sns logo">
+			<img class= "header-img" src="assets/sns.png" alt="sns logo">
 			</div>
 			<div>
-			<h1>Slack and Study </h1><br>
-			<h3 class="subheader">A Slack app to manage private groups in your team </h3>
+			<h1>Slack and Study <a style="color: white" target = "_blank" href = "https://github.com/Trion129/study-bot"><i class="fa fa-github" aria-hidden="true"></i></a></h1><br>
+			<h3 class="subheader">A Slash command to manage private groups in your team</h3>
+			<a target = "_blank" class = "slack" href="https://slack.com/oauth/authorize?&client_id=148122814833.188492009009
+            &scope=commands,groups:write,groups:read,channels:write,channels:read,chat:write:bot,team:read">
+            <img alt="Add to Slack" height="40" width="139" 
+            src="https://platform.slack-edge.com/img/add_to_slack.png" 
+            srcset="https://platform.slack-edge.com/img/add_to_slack.png 1x,
+            https://platform.slack-edge.com/img/add_to_slack@2x.png 2x" />
+          </a>
 			</div>
 		</header>
 
-		<div class = "content">
-			<div class = "description">
-			</div>
-			<div class="demo">
-			</div>
+		<div id = "use">
+			<h1 class = "content-header">Do you have any questions or feedback?</h1>
+			<h3>Send them using this form</h3>
+                    <form method="POST" action="http://formspree.io/pankajashree@gmail.com">
+                        <input type="email" name="email" placeholder="Your email">
+                        <textarea rows="10" name="message" placeholder="Your message"></textarea>
+                        <button class="support" type="submit">Send</button>
+                    </form>
 		</div>
 
 		<footer>
-			<p>A Slack app by <a target="_blank" href='https://github.com/Trion129'>@trion</a> and <a target="_blank" href='https://github.com/pankaja-shree'>@pankaja</a></p>
+			<p><a target="_blank" href='privacy.html'>Privacy Policy</a> A Slack app by <a target="_blank" href='https://github.com/Trion129'>@trion</a> and <a target="_blank" href='https://github.com/pankaja-shree'>@pankaja</a>.</p>
 		</footer>
+		<a class= "link support" style = "color: white" href="index.html">
+		<i class="fa fa-chevron-left" aria-hidden="true"></i>
+
+		&nbsp;Back to Main Page</a>
         
 
     </body>
