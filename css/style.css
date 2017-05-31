@@ -76,7 +76,8 @@ a:hover{
 
 
 .content{
-	padding: 5%;
+	padding: 2%;
+	margin: 2%;
     display: -webkit-flex;
     display: flex;
     -webkit-justify-content: center;
@@ -84,6 +85,10 @@ a:hover{
     line-height: 1.5em;
 	font-size: 1.2em;
 }
+
+/* .content-item:first-child{
+		padding: 5% 0 5% 5%  ;
+	} */
 
 .content-header{
     color: #005c83
@@ -94,7 +99,7 @@ a:hover{
    -moz-box-shadow: 10px 10px 20px 0px rgba(158,155,158,1);
    box-shadow: 5px 5px 20px 0px rgba(158,155,158,1);
    border-radius: 10px;
-   margin: 5%;
+   margin: 5% 5% 5% 0;
 }
 
 #use{
@@ -129,11 +134,11 @@ code{
         border-radius: 5px;
 }
 
-.slack{
+.link{
     text-decoration: none !important;
 }
 
-.slack-link:hover{
+.link:hover{
     text-decoration: none !important;
 }
 
@@ -155,6 +160,20 @@ footer a:hover{
 	border-bottom-width: 2px;
     border-bottom-style: solid;
     padding-bottom: 3px;
+}
+
+.support{
+	position: fixed;
+	bottom:0;
+	right:0;
+	background-color: #005c83;
+	color: #fff;
+	fornt-size: 1.2em;
+	outline: none;
+	border: none;
+	border-radius: 5px 5px 0 0;
+	padding: 1%;
+	font-family: 'Montserrat', sans-serif;
 }
 }
 
@@ -207,6 +226,7 @@ footer a:hover{
     justify-content: center;
     line-height: 1.5em;
 	font-size: 1.2em;
+	text-align: center;
 	}
 	
 	.content-item:first-child{
@@ -223,6 +243,7 @@ footer a:hover{
 	   box-shadow: 5px 5px 20px 0px rgba(158,155,158,1);
 	   border-radius: 10px;
 	   margin: 5%;
+	   width: 90%;
 	}
 	
 	#use{
