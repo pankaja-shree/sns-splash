@@ -19,11 +19,13 @@ Links -
 optional color: #b116c9 ;
 */
 
+
+/*Desktops*/
+@media only screen and (min-width: 768px) {
 html, body{
     margin: 0;
     padding: 0;
     font-family: 'Lato', sans-serif;
-	width: 100%;
 }
 
 body{
@@ -70,14 +72,15 @@ a:hover{
     padding-bottom: 3px;
 } */
 
+
 .content{
 	padding: 5%;
     display: -webkit-flex;
     display: flex;
-    -webkit-justify-content: space-between;
-    justify-content: space-between;
-    height: 40vh;
+    -webkit-justify-content: center;
+    justify-content: center;
     line-height: 1.5em;
+	font-size: 1.2em;
 }
 
 .content-header{
@@ -87,16 +90,16 @@ a:hover{
 .demo-image{
    -webkit-box-shadow: 10px 10px 20px 0px rgba(158,155,158,1);
    -moz-box-shadow: 10px 10px 20px 0px rgba(158,155,158,1);
-   box-shadow: 10px 10px 20px 0px rgba(158,155,158,1);
+   box-shadow: 5px 5px 20px 0px rgba(158,155,158,1);
    border-radius: 10px;
    margin: 5%;
 }
 
 #use{
-height: 60vh;
 background-color: #DFF6FF;
 text-align: center;
-padding: 5% 0 0 0;
+padding: 5% 0;
+width: 100vw;
 }
 
 table{
@@ -120,7 +123,7 @@ td:nth-child(2){
 code{
         background-color:  #005c83;
         color: #fff;
-        padding: 0.7%;
+        padding: 1%;
         border-radius: 5px;
 }
 
@@ -136,11 +139,39 @@ footer{
     position: relative;
     bottom:0;
     left: 0;
-    width: 100vw;
+    width: 100%;
     color: #005c83;
     text-align: center;
 }
 
 footer a {
    color: #3decff;
+   text-decoration:none;
 }
+
+footer a:hover{
+	border-bottom-width: 2px;
+    border-bottom-style: solid;
+    padding-bottom: 3px;
+}
+}
+
+/* mobiles */
+	body{
+	display: -webkit-flex;
+    display: flex;
+	flex-direction: column;
+	justify-content: center;
+	}
+	
+	.header{
+		display: -webkit-flex;
+    display: flex;
+	flex-direction: column;
+	justify-content: center;
+	}
+	
+	.header-img{
+		width: 15%;
+	}
+ 
