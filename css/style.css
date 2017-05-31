@@ -62,10 +62,12 @@ a:hover{
     display: flex;
     justify-content: center;
     height: 90vh;
+    line-height: 1.5em;
 }
 
 .content-item:first-child{
     padding: 3% 1% 10% 10%;
+    height: 60vh;
 }
 
 .content-item:nth-child(2){
@@ -90,6 +92,17 @@ box-shadow: 10px 10px 20px 0px rgba(158,155,158,1);
     text-decoration: none;
 }
 
+#use{
+height: 70vh;
+background-color: #DFF6FF;
+}
+
+code{
+        background-color:  #005c83;
+        color: #fff;
+        padding: 0.7%;
+        border-radius: 5px;
+}
 footer{
     position: relative;
     bottom:0;
@@ -97,6 +110,8 @@ footer{
     width: 100vw;
     color: #005c83;
     text-align: center;
+    background-image: linear-gradient(-225deg, #FFFEFF 0%, #D7FFFE 100%);
+
 }
 
 footer a {
