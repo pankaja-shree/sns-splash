@@ -6,13 +6,13 @@ $(function() {
         $('.error').hide();
             var email = $("input#email").val();
             if (email == "") {
-            $("label#email_error").show();
+        //    $("label#email_error").show();
             $("input#email").focus();
             return false;
         }
             var message = $("#message").val();
             if (message == "") {
-            $("label#message_error").show();
+         //   $("label#message_error").show();
             $("#message").focus();
             return false;
         }
